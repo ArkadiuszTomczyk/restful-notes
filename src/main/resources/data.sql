@@ -1,0 +1,2 @@
+-- INSERT INTO NOTE_ENTITY(ID, TITLE, CONTENT) VALUES(NOTE_ID_SEQ.nextval, 'Jack note title', 'Short content');
+SELECT * FROM NOTE_ENTITY;
