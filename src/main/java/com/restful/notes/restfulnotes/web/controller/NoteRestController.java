@@ -63,15 +63,9 @@ public class NoteRestController {
     //dopiero po dodaniu value = ... zaczęło działąć
     public void delete(@PathVariable("id") Long id ) {
         noteService.delete(id);
-
-
     }
     //todo delete - przetestować czy działa poprawnie- ok
     // todo testy jednostkowe
-
-
-
-
 }
 //S.O.L.I.D.
 //S- single responsibility
