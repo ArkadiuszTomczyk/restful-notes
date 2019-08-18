@@ -1,15 +1,20 @@
 package com.restful.notes.restfulnotes.web.controller;
 
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.DeleteMapping;
-import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 @RequestMapping(value = "/notes")
 public class NoteMvcController { // implements NoteController
-    @DeleteMapping("/{id}")
-    public String deleteMvc(@PathVariable("id") Long id ) {
+
+    @GetMapping(value = "/sign-up")
+    public String signUp() {
+        return "sign-up";
+    }
+
+    @GetMapping
+    public String read(Long id) {
         return "notes"; // notes - nazwa plik z HTML, który jest w resources/templates/notes.html
     }
 //    todo zrobic metody jak w noteRestController tylko tu ze String zamiast NoteModel
@@ -22,7 +27,6 @@ public class NoteMvcController { // implements NoteController
 //    public void delete(@PathVariable("id") Long id ) {
 //        noteService.delete(id);
 //    }
-
 
 
 //@Controller
