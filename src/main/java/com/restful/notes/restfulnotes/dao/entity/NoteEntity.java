@@ -10,8 +10,7 @@ import java.io.Serializable;
 //        @UniqueConstraint(columnNames = "ID")
 //})
 public class NoteEntity implements Serializable {
-    @Id
-    @GeneratedValue
+
 //   todo info  using below annotations we can't create "id", it is generated automatically
 
 //            (strategy = GenerationType.IDENTITY,
@@ -19,6 +18,9 @@ public class NoteEntity implements Serializable {
 //    @SequenceGenerator
 //            (name = "NOTE_ID_GENERATOR", sequenceName = "NOTE_ID_SEQ")
 //    @Column(name = "ID", unique = true, nullable = false)
+    @Id
+    @GeneratedValue
+//    todo zmienic na sekwencje analogicznie do NOTE_USER
     private Long id;
 //    @Column(name = "Title", unique = false, nullable = false)
     private String title;

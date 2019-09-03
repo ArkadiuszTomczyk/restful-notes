@@ -26,6 +26,7 @@ public class NoteRestController {
     private static final Logger LOGGER = Logger.getLogger(NoteRestController.class.getName());
     @Autowired
     private NoteService noteService;
+    //todo przenieśc metodę sign-up do oddzielnego kontrolera - NoteUserRestController - ok
 
     @GetMapping
     public List<NoteModel> notes() {
