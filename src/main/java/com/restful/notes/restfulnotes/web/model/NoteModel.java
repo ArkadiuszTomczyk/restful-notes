@@ -1,6 +1,7 @@
 package com.restful.notes.restfulnotes.web.model;
 
 public class NoteModel {
+
     private Long id;
     private String title;
     private String content;

@@ -2,6 +2,8 @@ package com.restful.notes.restfulnotes.web.controller;
 
 import com.restful.notes.restfulnotes.service.NoteService;
 import com.restful.notes.restfulnotes.web.model.NoteModel;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
@@ -17,13 +19,13 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
-import java.util.logging.Logger;
+
 
 @RestController
 @RequestMapping(value = "/api/notes")
 public class NoteRestController {
 
-    private static final Logger LOGGER = Logger.getLogger(NoteRestController.class.getName());
+    private static final Logger LOGGER = LoggerFactory.getLogger(Logger.class);
     @Autowired
     private NoteService noteService;
     //todo przenieśc metodę sign-up do oddzielnego kontrolera - NoteUserRestController - ok

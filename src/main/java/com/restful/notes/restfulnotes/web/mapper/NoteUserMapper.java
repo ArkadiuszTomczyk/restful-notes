@@ -7,12 +7,25 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class NoteUserMapper {
-    public static NoteUser fromModel(NoteUserModel noteUserModel) {
-        NoteUser noteUser = new NoteUser();
+
+    public static NoteUserModel fromUserEntity(NoteUser noteUser) {
+        NoteUserModel noteUserModel = new NoteUserModel();
         BeanUtils.copyProperties(noteUserModel, noteUser);
-        return noteUser;
+        return noteUserModel;
     }
 
-
+    public static NoteUser fromModel(NoteUserModel noteUserModel) {
+        NoteUser noteUser = new NoteUser();
+        noteUser.setId(noteUserModel.getId());
+        noteUser.setUsername(noteUserModel.getUsername());
+        noteUser.setPassword(noteUserModel.getPassword());
+        return noteUser;
+    }
+//    before changes
+//    public static NoteUser fromModel(NoteUserModel noteUserModel) {
+//        NoteUser noteUser = new NoteUser();
+//        BeanUtils.copyProperties(noteUserModel, noteUser);
+//        return noteUser;
+//    }
 
 }
