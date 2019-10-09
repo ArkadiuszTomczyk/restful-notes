@@ -70,7 +70,7 @@
           <IdeaActionID>FileChooser.GotoDesktop</IdeaActionID>
           <ShortCut>'Ctrl+D'</ShortCut>
           <Description>Desktop Directory</Description>
-          <Count>5</Count>
+          <Count>6</Count>
         </Item>
       </Statistic>
       <Statistic Action="Directory Path">
@@ -126,7 +126,7 @@
           <IdeaActionID>FileChooser.GotoHome</IdeaActionID>
           <ShortCut>'Ctrl+1'</ShortCut>
           <Description>Home Directory</Description>
-          <Count>3</Count>
+          <Count>4</Count>
         </Item>
       </Statistic>
       <Statistic Action="Jump to Source">
