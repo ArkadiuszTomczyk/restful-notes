@@ -74,6 +74,10 @@
           <option name="url" value="https://github.com/tomekukf/JuniorTest1" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://git.devskiller.com/b5b55078-7007-4a89-966d-19fcc7fe116e.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="D:\" />
