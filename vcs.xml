@@ -98,6 +98,10 @@
           <option name="url" value="git@github.com:dustinschultz/just-gif-it.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@github.com:spring-guides/gs-serving-web-content.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="D:\dev" />
