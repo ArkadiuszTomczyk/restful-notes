@@ -14,6 +14,15 @@
         <option name="tasksTotal" value="4" />
         <option name="type" value="Hyperskill" />
       </course>
+      <course>
+        <option name="courseMode" value="Study" />
+        <option name="description" value="Learn to program by creating working applications:&#10;&#10;- Choose a project and get a personal curriculum with all the concepts necessary to build it&#10;&#10;- See how it's all related with the Knowledge Map&#10;&#10;- Develop projects and solve coding tasks with professional IDEs by JetBrains&#10;&#10;JetBrains Academy experience starts in your browser &#10;&#10;&lt;a href=&quot;https://www.jetbrains.com/academy/?utm_source=ide&amp;utm_content=browse-courses&quot;&gt;Learn more&lt;/a&gt;" />
+        <option name="humanLanguage" value="angielski" />
+        <option name="location" value="D:/dev/spring-email/core-java-modules/JetBrains Academy Java Track" />
+        <option name="name" value="JetBrains Academy Java Track" />
+        <option name="programmingLanguage" value="JAVA" />
+        <option name="type" value="PyCharm" />
+      </course>
     </courses>
   </component>
 </application>
